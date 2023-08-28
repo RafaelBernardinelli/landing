@@ -1,0 +1,9 @@
+.container--section-home {
+  background-image: url("../public/img/banner.png");
+  margin-top: 20em;
+}
+
+.container--section-infos {
+  display: flex;
+  flex-direction: column;
+}

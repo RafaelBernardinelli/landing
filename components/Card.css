@@ -1,0 +1,56 @@
+.card--container {
+  border-radius: 6.606px;
+  border: 0.661px solid #f4f4f4;
+  background: #fff;
+  box-shadow: 0px 13.211169242858887px 26.422338485717773px 0px
+    rgba(0, 0, 0, 0.06);
+  width: 260px;
+  height: 380px;
+  flex-shrink: 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card--title {
+  color: #007ad8;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  margin-bottom: 0.85em;
+}
+
+.card--repair {
+  color: #42454a;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  margin-bottom: 0.2em;
+}
+
+.card--price {
+  color: #63666b;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0.4px;
+  margin-bottom: 0.8em;
+}
+
+.card--img {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  margin: 8px auto;
+}

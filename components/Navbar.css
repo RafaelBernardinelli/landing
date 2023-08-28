@@ -1,0 +1,74 @@
+.header-container {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  background: transparent;
+}
+
+.img--crown {
+  height: 50px;
+}
+
+.img--crowntech {
+  height: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 5px 0;
+  display: inline-block;
+  margin: 15px 10px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 3px solid transparent;
+  transition: all 0.25s ease-in-out;
+  font-size: 17px;
+}
+
+nav ul li a:hover {
+  border-bottom: 3px solid #ffd500;
+  color: #ffd500;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section h1 {
+  font-size: 70px;
+  color: white;
+}
+
+section:nth-of-type(1) {
+  background-size: "cover";
+  background-position: "center";
+  background-image: url("/img/banner.png");
+  height: "100vh";
+}
+section:nth-of-type(2) {
+  background-color: #fff;
+}
+section:nth-of-type(3) {
+  background-color: #42454a;
+}
+section:nth-of-type(4) {
+  background-color: #fff;
+}

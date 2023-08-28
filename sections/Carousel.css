@@ -1,0 +1,37 @@
+.buttons {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 75vw;
+}
+.container .carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 20px;
+  padding: 10px;
+}
+
+.container .buttons button:first-child img {
+  transform: rotate(180deg);
+}
+
+.container .carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.container .buttons {
+  width: 100%;
+  text-align: center;
+}
+.container .buttons button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.container .buttons button:first-child img {
+  transform: rotate(180deg);
+}
